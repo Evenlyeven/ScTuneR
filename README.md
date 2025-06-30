@@ -29,6 +29,7 @@ install.packages("magrittr")
 install.packages("patchwork")
 remotes::install_github("satijalab/seurat")  # if not installed
 ```
+
 ### 🖥️ Usage
 
 ```{bash}
@@ -64,6 +65,7 @@ Rscript ScTuneR.R \
 
 - `--res_range`  
   Comma-separated list of resolutions to explore. Default is `0.2,0.4,0.6`.
+  
 
 ## 📂 Output
 
@@ -74,7 +76,9 @@ A timestamped subdirectory is created under the specified output directory, cont
 - merged_PCA.png: Elbow plot
 - UMAP_PCres.png: UMAP plots across all PC-res combinations
 
-📌 Notes
+
+## 📌 Notes
+
 - The script automatically handles .rds and .RData formats.
 - Sub-analysis is helpful when starting with a single merged object.
 - A named list of Seurat objects is expected for standard analysis (`--sub_analysis FALSE`).
