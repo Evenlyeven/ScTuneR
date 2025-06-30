@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="ScTuneR_hex2.png" width="180"/>
+  <img src="ScTuneR_hex3.png" width="180"/>
 </p>
 
 # ScTuneR
