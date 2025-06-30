@@ -54,7 +54,7 @@ Rscript ScTuneR.R \
   Whether to split object by metadata (e.g., orig.ident). Default is TRUE.
 
 - `--splitby`  
-  Metadata column to split by (used only if sub_analysis = TRUE). Default is `orig.ident`.
+  Metadata column to split by (used only if `sub_analysis = TRUE`). Default is `orig.ident`.
 
 - `--integration`  
   Whether to perform Harmony-based integration. Default is TRUE.
@@ -70,11 +70,11 @@ Rscript ScTuneR.R \
 A timestamped subdirectory is created under the specified output directory, containing:
 - SCTed_seu_obj_ls.rds: Normalized Seurat objects
 - merged_seu_obj.rds: Merged (but not integrated) object
-- integrated_seu_obj.rds: Harmony-integrated object (if --integration = TRUE)
+- integrated_seu_obj.rds: Harmony-integrated object (if `--integration = TRUE`)
 - merged_PCA.png: Elbow plot
 - UMAP_PCres.png: UMAP plots across all PC-res combinations
 
 📌 Notes
 - The script automatically handles .rds and .RData formats.
 - Sub-analysis is helpful when starting with a single merged object.
-- A named list of Seurat objects is expected for standard analysis (--sub_analysis FALSE).
+- A named list of Seurat objects is expected for standard analysis (`--sub_analysis FALSE`).
