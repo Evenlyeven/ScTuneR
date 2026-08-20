@@ -1,0 +1,17 @@
+# Local Claude Code settings -- machine-specific, not shared
+.claude/
+
+# Dated backups and working copies kept next to the main script
+*_bak_*.R
+*_backup_*.R
+CopyOf*.R
+backup/
+
+# R session artifacts
+.Rhistory
+.RData
+.Rproj.user/
+
+# renv package library is restored from renv.lock, never committed
+renv/library/
+renv/staging/
